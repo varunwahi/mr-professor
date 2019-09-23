@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="test.minipadmin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="test.minipadmin.LoginActivity"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="test.minipadmin.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="test.minipadmin.SubjectsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="test.minipadmin.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="test.minipadmin.YearActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="test.minipadmin.UnitsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="test.minipadmin.TabbedActivity1"
+            android:label="@string/title_activity_tabbed1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="test.minipadmin.TabbedActivity2"
+            android:label="@string/title_activity_tabbed2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="test.minipadmin.AnswersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="test.minipadmin.VerificationActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="test.minipadmin.HelpActivity"></activity>
+    </application>
+
+</manifest>

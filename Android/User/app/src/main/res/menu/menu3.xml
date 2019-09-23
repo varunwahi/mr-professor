@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actionbarsearch"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_refresh_white_24dp"
+        android:title="Refresh"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="Log Out"
+        android:id="@+id/logout"
+        app:showAsAction="never"/>
+    <item
+        android:title="About"
+        android:id="@+id/about"
+        app:showAsAction="never"/>
+    <item
+        android:title="Help"
+        android:id="@+id/help"
+        app:showAsAction="never"/>
+
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titledialog"
+        android:hint="Title (Max Length : 80)"
+        android:maxLength="80"
+        android:background="@drawable/roundededittexttop"
+        android:padding="@dimen/activity_vertical_margin"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contentdialog"
+        android:hint="Tip (Max Length : 255)"
+        android:layout_below="@+id/titledialog"
+        android:maxLength="255"
+        android:background="@drawable/roundededittextbottom"
+        android:padding="@dimen/activity_vertical_margin"/>
+
+</RelativeLayout>

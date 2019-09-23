@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="test.minip.LinksFragment"
+
+    android:paddingStart="8dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="8dp"
+
+
+    android:background="#961b1b">
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkslv"
+
+        android:background="#FFFFFF"
+        android:divider="#961b1b"
+        android:dividerHeight="5dp"
+
+        android:fadeScrollbars="false"
+
+/>
+
+
+</RelativeLayout>
